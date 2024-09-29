@@ -17,7 +17,7 @@ int main(void) {
         przunitario = przunitario-sconto;
     }
 
-    else if (przunitario > 10 && przunitario < 50) {
+    else if (przunitario > 10 ) {
         sconto = przunitario*10/100;
         przunitario = przunitario-sconto;
     }
